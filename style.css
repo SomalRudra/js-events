@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    align-self: center;
+    background-color: brown;
+    transition: width 0.25s ease, height 0.25s ease;
+}
+
+.parameters {
+    margin: 20px;
+}
